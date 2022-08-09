@@ -1,0 +1,12 @@
+{
+    "AVIONICSBOARD": {
+        "inherits": [
+            "MCU_STM32L562xE"
+        ],
+        "overrides": {
+            "lse_available": 0,
+            "clock_source": "USE_PLL_MSI"
+        },
+        "device_name": "STM32L562QEIxQ"
+    }
+}
